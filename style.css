@@ -69,3 +69,28 @@ main {
   outline: 1px solid black;
   border: 1px solid transparent;
 }
+
+@media all and (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    min-width: 90vw;
+  }
+
+  .links-container {
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .main-link-container input {
+    max-width: 53%;
+  }
+
+  .main-link-container {
+    max-width: 90vh;
+  }
+}
