@@ -34,7 +34,7 @@ main {
 }
 
 .new-link-btn {
-  background: #f30f42;
+  background: #222;
   font-family: var(--font-primary);
   padding: 0.25rem 0.75rem;
   font-size: 1.35rem;
