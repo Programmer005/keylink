@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeyLink - Save important links</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <button class="new-link-btn">Add a new link and keyword</button>
+
+      <div class="links-container">
+        <div class="main-link-container">
+          <input
+            type="text"
+            name="Link input"
+            placeholder="Add a link"
+            class="keylink-input link-input"
+          />
+          <input
+            type="text"
+            name="Keyword"
+            placeholder="Keyword"
+            class="keylink-input keyword-input"
+          />
+        </div>
+
+        <div class="main-link-container">
+          <!-- <input
+            type="text"
+            name="Link input"
+            placeholder="Add a link"
+            class="keylink-input link-input"
+          />
+          <input
+            type="text"
+            name="Keyword"
+            placeholder="Keyword"
+            class="keylink-input keyword-input"
+          />
+        </div>
+
+        <div class="main-link-container">
+          <input
+            type="text"
+            name="Link input"
+            placeholder="Add a link"
+            class="keylink-input link-input"
+          />
+          <input
+            type="text"
+            name="Keyword"
+            placeholder="Keyword"
+            class="keylink-input keyword-input"
+          /> -->
+        </div>
+      </div>
+    </main>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js")
+      }
+    </script>
+  </body>
+</html>
