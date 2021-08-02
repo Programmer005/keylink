@@ -94,3 +94,9 @@ main {
     max-width: 90vh;
   }
 }
+
+@media all and (max-width: 786px) {
+  main {
+    min-width: 85vw;
+  }
+}
