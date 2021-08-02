@@ -28,19 +28,19 @@ newBtn.addEventListener("click", addNewKeyLink)
 //TODO: Add PWA support
 //TODO: Add localstorage
 
-const addLocalKeyLinks = () => {
-  const linkInput = document.querySelector(".link-input")
-  const keywordInput = document.querySelector(".keyword-input")
+//const addLocalKeyLinks = () => {
+  //const linkInput = document.querySelector(".link-input")
+  //const keywordInput = document.querySelector(".keyword-input")
 
-  console.table([linkInput.value, keywordInput.value])
+  //console.table([linkInput.value, keywordInput.value])
 
-  keylinks.push({
-    link: linkInput.value,
-    keyword: keywordInput.value,
-  })
+ // keylinks.push({
+   // link: linkInput.value,
+    //keyword: keywordInput.value,
+  //})
 
-  localStorage.setItem("keylinks", JSON.stringify(keylinks))
-}
+ // localStorage.setItem("keylinks", JSON.stringify(keylinks))
+//}
 
 // inputs.forEach((link) => {
 //   link.addEventListener("input", () => {
@@ -48,4 +48,4 @@ const addLocalKeyLinks = () => {
 //   })
 // })
 
-addLocalKeyLinks()
+//addLocalKeyLinks()
